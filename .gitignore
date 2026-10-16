@@ -1,0 +1,27 @@
+# Build outputs (rebuild with `make`)
+asm/combination
+asm/main
+c/combination
+*.o
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sensitive files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+id_rsa*
+credentials*
+secrets*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

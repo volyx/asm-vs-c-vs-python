@@ -1,0 +1,4 @@
+#!/bin/sh
+# Executable wrapper for Combination bytecode program on macOS Apple Silicon arm64
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+exec java -cp "$SCRIPT_DIR" Combination "$@"
